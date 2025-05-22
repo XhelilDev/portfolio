@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emri Yt - Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="header">
+
+            <div class="logo">
+               <span>Xhelil Xhelili</span> 
+            </div>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav">
+                <div class="ul-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </div>
+
+            </div>
+           
+        </div>
+
+    </div>
+
+    <div class="main-section">
+
+        <div class="main-description">
+           
+            <ul class="ul-des">
+                <li>Design</li>
+                <li>Development</li>
+                <li>Marketing</li>
+            </ul>
+       
+
+            <div class="moto">
+                <p>I can help your business to</p>
+                <h1>Get online and grow fast</h1>
+            </div>
+            <div class="main-link">
+               
+                    <a class="btn" href="./projects.html">Projects</a>
+                    <a class="btn-r" href="./about.html">About Me</a>
+               
+            </div>
+        </div>
+      
+
+        <div class="main-foto">
+        
+            <img class="foto-profile" src="./assets/foto-portfolio.png" alt="foto.jpg" width="350"/>
+        </div>
+
+    </div>
+
+    <div class="about-me">
+        <div class="about-title"><h1>About Me</h1></div>
+        <div class="about-paragraf"><p>Hello, I'm Xhelil Xhelili, born with a zest for life and a natural inclination for technology. From day zero, I embarked on a journey to understand the world through the lens of codes and pixels!</p></div>
+        <div class="social-icon">
+        <span><i class="fa-brands fa-facebook"></i></span><span><i class="fa-brands fa-linkedin"></i></span><span><i class="fa-brands fa-twitter"></i></span></div>
+    </div>
+
+    <div class="footer">
+
+        <div class="copyright">
+            Copyright &copy; XhelilXhelili 2023
+        </div>
+        <div class="privacy">
+            <ul class="privacy-ul">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Term</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+<script>
+    function toggleMenu() {
+    var ulNav = document.querySelector('.ul-nav');
+    ulNav.classList.toggle('show');
+}
+
+</script>
+</body>
+</html>
